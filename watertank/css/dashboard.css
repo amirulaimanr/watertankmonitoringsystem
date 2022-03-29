@@ -1,0 +1,49 @@
+#box_outer {
+    border: 0px solid grey;
+    width: 100%;
+}
+
+#box_top {
+    border: 1px solid lightgray;
+    width: 98%;
+    float: left;
+    margin: 0.2%;
+}
+
+#box_rt {
+    display: block;
+
+    width: 40%;
+    float: left;
+    position: relative;
+    top: 0;
+    left: 0;
+
+
+}
+
+#box_lt {
+    padding: 1%;
+    width: 20%;
+    float: left;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: 1%;
+}
+
+#box_md {
+    padding: 1%;
+    width: 20%;
+    height: 61%;
+    float: left;
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-top: 1%;
+}
+
+.tank {
+    position: relative;
+    top: -20px;
+    width: 400px;
+    height: 140px;
+}
