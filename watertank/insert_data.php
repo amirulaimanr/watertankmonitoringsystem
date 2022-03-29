@@ -4,10 +4,10 @@ date_default_timezone_set("Asia/Kuala_Lumpur");
 
 //Creates new record as per request
     //Connect to database
-    $servername = "localhost";
-    $username = "id16941139_level_log";
-    $password = "Abcd3fghij=kl";
-    $dbname = "id16941139_water_level";
+    $servername = "us-cdbr-east-05.cleardb.net";
+    $username = "bcf74884c944ba";
+    $password = "99285d5e";
+    $dbname = "heroku_d5cda30792e5a40";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
