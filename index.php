@@ -28,7 +28,7 @@ $(function() {
       dateFormat: "yy-mm-dd",
       onSelect: function(dateText) {
         var datePicked = $.datepicker.parseDate("yy-mm-dd", dateText);
-        targetUrl = "http://localhost/watertanksystem/index.php?page=realtime&date=" + dateText;
+        targetUrl = "http://watertankmonitoringsystem.unaux.com/watertanksystem/index.php?page=realtime&date=" + dateText;
 
         $(this).change();
         
@@ -49,7 +49,7 @@ $(function() {
 <?php
   error_reporting(-1);//report all errors during execution
   global $host;
-  $host="http://localhost/watertanksystem";
+  $host="http://watertankmonitoringsystem.unaux.com/watertanksystem";
   global $realtime_path,$simulation_path;
   $realtime_path = "$host/watertank";
   $simulation_path = "$host/watertank_simulation";
@@ -203,7 +203,7 @@ h1 {letter-spacing: 6px}
       ?>  
         
         
-        <p class="realtime_dashboard"><iframe src="http://localhost/watertanksystem/watertank/dashboard.php" frameborder="0" height='480px' width='1207px' scrolling="no"></iframe></p>
+        <p class="realtime_dashboard"><iframe src="http://watertankmonitoringsystem.unaux.com/watertanksystem/watertank/dashboard.php" frameborder="0" height='480px' width='1207px' scrolling="no"></iframe></p>
 
       <?php
 
@@ -297,10 +297,10 @@ h1 {letter-spacing: 6px}
               <div class="statistic_graph">
                 <div class="grid-container">
                     <div class="container1">
-                      <iframe src= 'http://localhost/watertanksystem/watertank/phplot/graph.php?date=<?php echo"$date"?>' frameborder="0" height='550px' width='810px'  name='iframe_b'></iframe>
+                      <iframe src= 'http://watertankmonitoringsystem.unaux.com/watertanksystem/watertank/phplot/graph.php?date=<?php echo"$date"?>' frameborder="0" height='550px' width='810px'  name='iframe_b'></iframe>
                     </div>
                     <div class="container3">
-                      <iframe src='http://localhost/watertanksystem/watertank/phplot/graph3.php?date=<?php echo"$date"?>' height='550px' width='810px' frameborder="0" name='iframe_b'></iframe>
+                      <iframe src='http://watertankmonitoringsystem.unaux.com/watertanksystem/watertank/phplot/graph3.php?date=<?php echo"$date"?>' height='550px' width='810px' frameborder="0" name='iframe_b'></iframe>
                     </div>
                 </div>
                 <!-- <div class="container2">
