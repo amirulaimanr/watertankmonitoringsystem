@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect('sql212.unaux.com', 'unaux_31404632', 'b3uoo5s4') or
+$conn = mysqli_connect('localhost', 'id18702024_watertank', '!W%j{|<M[83HLkQ!') or
         die ('Unable to connect. Check your connection parameters.');
-        mysqli_select_db($conn, 'unaux_31404632_db_watertank' ) or die(mysqli_error($conn));
+        mysqli_select_db($conn, 'id18702024_db_watertank' ) or die(mysqli_error($conn));
 ?>

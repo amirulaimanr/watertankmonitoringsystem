@@ -4,10 +4,10 @@ date_default_timezone_set("Asia/Kuala_Lumpur");
 
 //Creates new record as per request
     //Connect to database
-    $servername = "sql212.unaux.com";
-    $username = "unaux_31404632";
-    $password = "b3uoo5s4";
-    $dbname = "unaux_31404632_db_watertank";
+    $servername = "localhost";
+    $username = "id18702024_watertank";
+    $password = "!W%j{|<M[83HLkQ!";
+    $dbname = "id18702024_db_watertank";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
