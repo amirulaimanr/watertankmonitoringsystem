@@ -429,7 +429,7 @@ h1 {
         text-align: center;
         padding: 2rem;
         display: flex;
-        margin: 0 auto;
+        margin: 0 auto 3rem;
         z-index: 90;
         overflow: hidden;
     }
@@ -633,7 +633,7 @@ h1 {
 
     .fourth_wave {
         position: absolute;
-        top: 126px;
+        top: 164px;
         left: 0;
         right: 0;
         bottom: 0;
