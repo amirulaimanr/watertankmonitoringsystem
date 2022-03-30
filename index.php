@@ -28,7 +28,7 @@ $(function() {
       dateFormat: "yy-mm-dd",
       onSelect: function(dateText) {
         var datePicked = $.datepicker.parseDate("yy-mm-dd", dateText);
-        targetUrl = "https://watertankmonitoringsystem.000webhostapp.com/watertanksystem/index.php?page=realtime&date=" + dateText;
+        targetUrl = "https://watertankmonitoringsystem.000webhostapp.com/index.php?page=realtime&date=" + dateText;
 
         $(this).change();
         
@@ -49,7 +49,7 @@ $(function() {
 <?php
   error_reporting(-1);//report all errors during execution
   global $host;
-  $host="https://watertankmonitoringsystem.000webhostapp.com/watertanksystem";
+  $host="https://watertankmonitoringsystem.000webhostapp.com/";
   global $realtime_path,$simulation_path;
   $realtime_path = "$host/watertank";
   $simulation_path = "$host/watertank_simulation";
@@ -203,7 +203,7 @@ h1 {letter-spacing: 6px}
       ?>  
         
         
-        <p class="realtime_dashboard"><iframe src="https://watertankmonitoringsystem.000webhostapp.com/watertanksystem/watertank/dashboard.php" frameborder="0" height='480px' width='1207px' scrolling="no"></iframe></p>
+        <p class="realtime_dashboard"><iframe src="https://watertankmonitoringsystem.000webhostapp.com/watertank/dashboard.php" frameborder="0" height='480px' width='1207px' scrolling="no"></iframe></p>
 
       <?php
 
