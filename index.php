@@ -153,9 +153,9 @@ Water tank users can view the real-time status and measurements of their water t
           <div class="realtime_data">
             <h1><span class="realtime_title">Real-time Water Level</span></h1>
             <p class="realtime_p">
-            The dashboard shown below display real time water level of Kolej Kediaman Tuanku Tengku Fauziah Hostel overhead tank. Tank level is updated every minute on arrival of sensor data. 
+            The dashboard displayed below shows the real-time water level of the Kolej Kediaman Tuanku Tengku Fauziah Hostel overhead tank. The tank level is updated every minute upon receiving sensor data.
 
-            Since the real-time data changes marginally in a minute, you may find no change in the tank level.
+Since the real-time data changes minimally within a minute, you may not observe any noticeable changes in the tank level.
             </p>
           </div>
         
@@ -246,7 +246,7 @@ Water tank users can view the real-time status and measurements of their water t
         <div class="statistic_data">
             <h1><span class="realtime_title">Statistics</span></h1>
             <p class="statistic_p">
-            The graph (shown below the tank animation) displays the water level readings for a selected date. Y-axis indicates the volume of water left in the tank and X-axis denotes hours in a day. Since the hardware system has stopped working you cannot see the graph data currently. 
+            The graph displayed below the tank animation depicts the water level readings for a selected date. The Y-axis represents the volume of water remaining in the tank, while the X-axis represents the hours in a day. Please note that due to the hardware system being currently non-functional, the graph data is not visible at the moment.
             <h5 style=" font-weight: 600; color: blue;">Select date ( 19 June 2021 - 20 June 2021 ) for last data recorded.</h5> 
             </p>
 
@@ -346,7 +346,7 @@ Water tank users can view the real-time status and measurements of their water t
         <div class="usage_data">
           <h1 class="usage_title">Water Usage</h1>
           <p class="usage_p">
-            When looking to install water storage it pays to know how much water you're consume. Therefore table below provides data of total water that has been used by year and month. It makes it easy for users to check when the most water is used. 
+            When considering the installation of water storage, it is essential to be aware of your water consumption. Therefore, the table below provides data on the total water usage by year and month. This table makes it convenient for users to determine the periods when the highest water consumption occurs.
           </p>
         </div>
 
@@ -386,7 +386,7 @@ Water tank users can view the real-time status and measurements of their water t
         <div class="gallery_data">
           <h1 class="gallery_title">Gallery</h1>
           <p class="gallery_p">
-          Check out our complete range of pictures gallery! These provide in-depth detail on how the system works, we mount the ultrasonic level sensor in your tanks. The sensor senses the distance between the fluid and itself and sends the distance data to a cellular/satellite gateway. The data is further transmitted to our database, where we convert the raw data into meaningful information (fluid quantity in the tanks) and display it on IoT dashboard.
+         Check out our comprehensive range of picture galleries! These galleries provide detailed insight into how our system works and how we install the ultrasonic level sensor in your tanks. The sensor accurately measures the distance between the fluid and itself, and then transmits this distance data to a cellular/satellite gateway. From there, the data is sent to our database, where we convert the raw data into meaningful information, specifically the fluid quantity in the tanks. This information is then displayed on our IoT dashboard, allowing you to easily monitor and track your tank levels.
           </p>
 
           
@@ -398,21 +398,21 @@ Water tank users can view the real-time status and measurements of their water t
             <img class="photo" src="img/a.gif" alt="">
             <div class="caption">
             <h3>System Architecture</h3>
-            <p>In this project, the IoT-based smart water tank system consists of the four major parts which are the hardware, software, networking and mobile communication</p>	
+            <p>In this project, the IoT-based smart water tank system comprises four major components: hardware, software, networking, and mobile communication.</p>	
             </div>		
           </div>
           <div class="gallery_img">
             <img class="photo" src="img/tank.jpg" alt="">
             <div class="caption">
             <h3>Water Tank Prototype</h3>
-            <p> Prototype of the Water Tank and the placement of the sensors. The water tank was marked with an indicator and the water level can be observed from the outside of the water tank.</p>	
+            <p> This is the prototype of the water tank, which includes the placement of sensors. The water tank has been marked with an indicator, allowing the water level to be easily observed from outside the tank</p>	
             </div>		
           </div>
           <div class="gallery_img">
             <img class="photo" src="img/connection.jpg" alt="">
             <div class="caption">
             <h3>Hardware Connection</h3>
-            <p>The connection between the WeMos D1R2 and all the modules. All the sensors were connected to the IO pin of the WeMos D1R2.</p>	
+            <p>The WeMos D1R2 is connected to all the modules in the system. All the sensors are connected to the IO pin of the WeMos D1R2 for communication and data transfer.</p>	
             </div>		
           </div>
         </div>
