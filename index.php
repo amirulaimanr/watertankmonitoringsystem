@@ -386,7 +386,7 @@ Since the real-time data changes minimally within a minute, you may not observe 
         <div class="gallery_data">
           <h1 class="gallery_title">Gallery</h1>
           <p class="gallery_p">
-         Check out our comprehensive range of picture galleries! These galleries provide detailed insight into how our system works and how we install the ultrasonic level sensor in your tanks. The sensor accurately measures the distance between the fluid and itself, and then transmits this distance data to a cellular/satellite gateway. From there, the data is sent to our database, where we convert the raw data into meaningful information, specifically the fluid quantity in the tanks. This information is then displayed on our IoT dashboard, allowing you to easily monitor and track your tank levels.
+          Check out our complete range of pictures gallery! These provide in-depth detail on how the system works, we mount the ultrasonic level sensor in your tanks. The sensor senses the distance between the fluid and itself and sends the distance data to a cellular/satellite gateway. The data is further transmitted to our database, where we convert the raw data into meaningful information (fluid quantity in the tanks) and display it on IoT dashboard.
           </p>
 
           
@@ -398,21 +398,21 @@ Since the real-time data changes minimally within a minute, you may not observe 
             <img class="photo" src="img/a.gif" alt="">
             <div class="caption">
             <h3>System Architecture</h3>
-            <p>In this project, the IoT-based smart water tank system comprises four major components: hardware, software, networking, and mobile communication.</p>	
+            <p>In this project, the IoT-based smart water tank system consists of the four major parts which are the hardware, software, networking and mobile communication</p>	
             </div>		
           </div>
           <div class="gallery_img">
             <img class="photo" src="img/tank.jpg" alt="">
             <div class="caption">
             <h3>Water Tank Prototype</h3>
-            <p> This is the prototype of the water tank, which includes the placement of sensors. The water tank has been marked with an indicator, allowing the water level to be easily observed from outside the tank</p>	
+            <p> Prototype of the Water Tank and the placement of the sensors. The water tank was marked with an indicator and the water level can be observed from the outside of the water tank.</p>	
             </div>		
           </div>
           <div class="gallery_img">
             <img class="photo" src="img/connection.jpg" alt="">
             <div class="caption">
             <h3>Hardware Connection</h3>
-            <p>The WeMos D1R2 is connected to all the modules in the system. All the sensors are connected to the IO pin of the WeMos D1R2 for communication and data transfer.</p>	
+            <p>The connection between the WeMos D1R2 and all the modules. All the sensors were connected to the IO pin of the WeMos D1R2.</p>	
             </div>		
           </div>
         </div>
